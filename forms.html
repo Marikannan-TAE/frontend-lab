@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="forms.html">Forms</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Signup Forms</h1>
+        <form>
+            <fieldset>
+                <legend>Personal info:</legend>
+                <div>
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" required />
+                </div>
+
+                <div>
+                    <label for="birthday">Birthday:</label>
+                    <input type="date" name="birthday" id="birthday" required />
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Credentials:</legend>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" required />
+                </div>
+
+                <div>
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" id="password" required />
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Terms:</legend>
+                <div>
+                    <p> Do you want to receive promotional emails? </p>
+                    <input type="radio" id="update-yes" name="updates" value="yes" /> Yes
+                    <input type="radio" id="update-no" name="updates" value="no" checked /> No
+                </div>
+                <div>
+                    <input type="checkbox" id="terms" name="terms" required /> I agree to the <a href="#">Terms and
+                        Conditions</a>
+                </div>
+            </fieldset>
+
+            <div>
+                <input type='submit' />
+            </div>
+        </form>
+
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2025 My Demo Website</p>
+    </footer>
+</body>
+
+</html>
